@@ -95,9 +95,6 @@ fetch('https://api.zerodrop.app/public/22200/leaderboard/points/984300?type=BALA
 });
 
 
-</script>
-
-<script>
 const resultContainer = document.querySelector(".result-container");
 const mixerHolder = document.querySelector(".mixer-holder");
 const raiderHolder = document.querySelector(".raider-holder");
