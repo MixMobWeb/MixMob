@@ -1,74 +1,4 @@
-<ul id="list0"></ul>
-
-<style>
-#list0 li:nth-of-type(n+11) {
-  display: none;
-}
-
-ul, ol {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    padding-left: 0px;
-}
-
-
-@media screen and (max-width: 479px) {
-	.list-item {
-	}
-}
-
-
-@media screen and (max-width: 479px) {
-	.rank-nobadge {
-	grid-column-start: 1;
-	grid-row-end: 2;
-	grid-row-start: 2;
-	}
-}
-
-@media screen and (max-width: 479px) {
-	.raider-holder {
-	grid-column-end: 2;
-	grid-column-start: 2;
-	grid-row-end: 2;
-	grid-row-start: 2;
-	}
-}
-
-@media screen and (max-width: 479px) {
-	.mobile-raider-banner-1 {
-	grid-template-columns: 1fr 0.5fr;
-  grid-column-end: 4;
-  grid-column-start: 1;
-  grid-row-end: 1;
-  grid-row-start: 1;
-	}
-}
-
-@media screen and (max-width: 479px) {
-	.mobile-raider-banner-2 {
-	display: none;
-	grid-column-end: 3;
-	grid-column-start: 1;
-	grid-row-end: 3;
-	grid-row-start: 3;
-	}
-}
-
-@media screen and (max-width: 479px) {
-	.mixer-holder {
-	grid-column-end: 3;
-	grid-column-start: 3;
-	grid-row-end: 2;
-	grid-row-start: 2;
-	}
-}
-
-
-</style>
-
-<script>
-  
+ 
   fetch('https://api.zerodrop.app/public/22200/leaderboard/points/984300?type=BALANCE', {
     method: 'GET',
     headers: {
@@ -167,5 +97,3 @@ item.appendChild(order);
     })
     .catch(error => console.error(error));
     
-
-</script>
