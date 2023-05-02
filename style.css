@@ -1,0 +1,142 @@
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+	.search-container {
+	position: fixed;
+  left: 0%;
+  top: auto;
+  right 0%;
+  bottom: 0%;
+  padding: 0px 15px 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.search-clear {
+  	padding: 0px 20px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+	.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  margin: 0px auto 5px;
+	}
+}
+
+
+
+.search-i {
+	background: url(https://uploads-ssl.webflow.com/6204753c4ec43e44e0607512/63fbe295284d8715912d3771_text.svg);
+  background-repeat: no-repeat;
+  background-position: 11px;
+  text-indent: 20px;
+	background-color: rgba(16, 16, 23, 0.6);
+  padding: 15px;
+  border: 2px solid #454f5b;
+  border-radius: 8px;
+  width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e4e4e4;
+  opacity: 1; /* Firefox */
+}
+
+.result-container {
+  display: none;
+}
+
+.leaderboard-holder-2 {
+  display: none;
+  justify-content: center;
+}
+
+.search-b {
+  padding: 10px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.rank-nobadge-search {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#list0 li:nth-of-type(n+11) {
+  display: none;
+}
+
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+
+@media screen and (max-width: 479px) {
+	.list-item {
+	}
+}
+
+
+@media screen and (max-width: 479px) {
+	.rank-nobadge {
+	grid-column-start: 1;
+	grid-row-end: 2;
+	grid-row-start: 2;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.raider-holder {
+	grid-column-end: 2;
+	grid-column-start: 2;
+	grid-row-end: 2;
+	grid-row-start: 2;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.mobile-raider-banner-1 {
+	grid-template-columns: 1fr 0.5fr;
+  grid-column-end: 4;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  grid-row-start: 1;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.mobile-raider-banner-2 {
+	display: none;
+	grid-column-end: 3;
+	grid-column-start: 1;
+	grid-row-end: 3;
+	grid-row-start: 3;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.mixer-holder {
+	grid-column-end: 3;
+	grid-column-start: 3;
+	grid-row-end: 2;
+	grid-row-start: 2;
+	}
+}
